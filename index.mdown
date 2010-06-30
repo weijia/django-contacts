@@ -1,0 +1,18 @@
+---
+layout: app
+title: Django Contacts
+---
+
+A simple [Contact Management][WP-ContactManagement] application for [Django][Django].
+
+* [Repository][GitHub]
+* [Documentation][Docs]
+<!-- * [Ticket Tracker][Tickets] -->
+<!-- * Downloads: ([HTTP][HttpDownloads] or [FTP][FtpDownloads]) -->
+
+### Features
+
+[WP-ContactManagement]: http://en.wikipedia.org/wiki/Contact_management_system
+[Django]: http://djangoproject.org/
+[GitHub]: http://github.com/asgardproject/django-contacts/
+[Docs]: http://asgardproject.github.com/django-contacts/docs/

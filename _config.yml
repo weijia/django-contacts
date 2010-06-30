@@ -1,0 +1,7 @@
+auto: true
+server: true
+destination: ./_site
+lsi: true
+pagination: 10
+pygments: true
+
