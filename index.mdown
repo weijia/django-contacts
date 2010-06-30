@@ -12,7 +12,14 @@ A simple [Contact Management][WP-ContactManagement] application for [Django][Dja
 
 ### Features
 
+* Groups
+
+### Requirements
+
+* [vobject][Python-vobject]
+
 [WP-ContactManagement]: http://en.wikipedia.org/wiki/Contact_management_system
 [Django]: http://djangoproject.org/
 [GitHub]: http://github.com/asgardproject/django-contacts/
 [Docs]: http://asgardproject.github.com/django-contacts/docs/
+[Python-vobject]: http://vobject.skyhouseconsulting.com/
