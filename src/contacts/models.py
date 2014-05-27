@@ -6,6 +6,7 @@ from django.utils.translation import ugettext as _
 from django.contrib.comments.models import Comment
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.generic import GenericRelation
+from django.contrib.auth.models import User
 
 from contacts.managers import SpecialDateManager
 
@@ -72,7 +73,7 @@ class Person(models.Model):
 	about = models.TextField(_('about'), blank=True)
 	photo = models.ImageField(_('photo'), upload_to='contacts/person/', blank=True)
 	
-	user = models.OneToOneField(settings.AUTH_USER_MODEL, blank=True, null=True,
+	user = models.OneToOneField(User, blank=True, null=True,
 		verbose_name=_('user'))
 	
 	phone_number = GenericRelation('PhoneNumber')
